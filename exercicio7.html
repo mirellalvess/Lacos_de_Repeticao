@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 7</title>
+    <script>
+        /*7 - Escreva um algoritmo para ler as notas de avaliações de um aluno, calcule e imprima a média (simples) desse aluno. Só devem ser aceitos valores válidos durante a leitura (0 a 10) para cada nota. São 6 notas ao total.
+Caso o valor informado para qualquer uma das notas esteja fora do limite estabelecido, deve ser solicitado um novo valor ao usuário. */
+
+    var numero = parseInt (prompt("Digite a primeira nota: "))
+    var numero2 = parseInt (prompt("Digite a segunda nota: "))
+    var numero3 = parseInt (prompt("Digite a terceira nota: "))
+    var numero4 = parseInt (prompt("Digite a quarta nota: "))
+    var numero5 = parseInt (prompt("Digite a quinta nota: "))
+    var numero6 = parseInt (prompt("Digite a sexta nota: "))
+
+    while (numero < 0 || numero > 10) {
+    var numero = parseInt (prompt("Tente de novo! :("))
+    }
+
+    while (numero2 < 0 || numero2 > 10) {
+    var numero2 = parseInt (prompt("Tente de novo! :("))
+    }
+
+    while (numero3 < 0 || numero3 > 10) {
+    var numero3 = parseInt (prompt("Tente de novo! :("))
+    }
+    while (numero4 < 0 || numero4 > 10) {
+    var numero4 = parseInt (prompt("Tente de novo! :("))
+    }
+
+    while (numero5 < 0 || numero5 > 10) {
+    var numero5 = parseInt (prompt("Tente de novo! :( "))
+    }
+
+    while (numero6 < 0 || numero6 > 10) {
+    var numero6 = parseInt (prompt("Tente de novo! :( "))
+    }
+
+    var media = ( numero + numero2 + numero3 + numero4 + numero5 + numero6) / 6
+    alert ("Sua média foi: " + media)  
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
